@@ -76,7 +76,7 @@ const SignInForm = () => {
             <FormInput 
                     label="Email"
                     type="email" 
-                    reguired 
+                    required={true} 
                     onChange={handleChange} 
                     name="email" 
                     value={email}/>
@@ -85,7 +85,7 @@ const SignInForm = () => {
             <FormInput 
                     label="Password"
                     type="password" 
-                    reguired 
+                    required={true} 
                     onChange={handleChange} 
                     name="password" value={password}/>
 
